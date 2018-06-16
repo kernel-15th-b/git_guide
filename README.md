@@ -21,9 +21,9 @@ git commit -m "무엇무엇 수정함"
 git reset HEAD^
 
 ### 서버에 올리는법
-원격 레포지트리 등록  
+- 원격 레포지트리 등록  
 git remote add origin https://github.com/kernel-15th-b/ras-linux-4.14.git
-서버에 올리기  
+- 서버에 올리기  
 git push origin master
 
 ### 서버 수정사항 받기  
