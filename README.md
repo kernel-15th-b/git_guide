@@ -5,7 +5,7 @@
 git config --global user.name "John Doe"  
 git config --global user.email johndoe@example.com
 
-### 서버에서 커널 받기
+### 서버에서 받기
 git clone https://github.com/kernel-15th-b/ras-linux-4.14.git
 
 ### 변경사항 스테이징 하기
