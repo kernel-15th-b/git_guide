@@ -9,22 +9,22 @@ git config --global user.email johndoe@example.com
 git clone https://github.com/kernel-15th-b/ras-linux-4.14.git
 
 ### 변경사항 스테이징 하기
-- 전체 스테이징 
+- 전체 스테이징  
 git add . 
-- 특정파일 스테이징
+- 특정파일 스테이징  
 git add README.md
 
 ### 변경사항 확정
-- 커밋
+- 커밋  
 git commit -m "무엇무엇 수정함"
-- 커밋 취소
+- 커밋 취소  
 git reset HEAD^
 
 ### 서버에 올리는법
-원격 레포지트리 등록
+원격 레포지트리 등록  
 git remote add origin https://github.com/kernel-15th-b/ras-linux-4.14.git
-서버에 올리기
+서버에 올리기  
 git push origin master
 
-### 서버 수정사항 받기
+### 서버 수정사항 받기  
 git pull origin master
