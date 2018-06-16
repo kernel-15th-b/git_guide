@@ -1,7 +1,7 @@
 # git_guide  
 
 ### 기본 설정
-- 이름하고 이메일 설정
+- 이름하고 이메일 설정  
 git config --global user.name "John Doe"  
 git config --global user.email johndoe@example.com
 
